@@ -1,0 +1,77 @@
+/* Add to your css/navbar.css or a new CSS file */
+.entourage-section {
+  background: #faf7f2;
+  padding: 60px 0;
+}
+.entourage-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: center;
+}
+.entourage-photo img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+}
+.entourage-list {
+  flex: 2;
+  min-width: 280px;
+}
+.entourage-list h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.entourage-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.entourage-grid h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #7a7a3c;
+  margin-bottom: 8px;
+}
+.entourage-grid p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .entourage-container {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .entourage-photo img {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .entourage-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .entourage-list h1 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .entourage-section {
+    padding: 32px 0;
+  }
+  .entourage-list h1 {
+    font-size: 1.5rem;
+  }
+  .entourage-photo img {
+    border-radius: 8px;
+  }
+}

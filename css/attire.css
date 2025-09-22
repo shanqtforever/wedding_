@@ -1,0 +1,108 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #faf5ef;
+      color: #5c4033;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      display: flex;
+      gap: 40px;
+      background: #fff8f1;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgb(0 0 0 / 0.08);
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .attire-section {
+  background: #fff8f1;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.08);
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.attire-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.attire-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.15em;
+  color: #3b2f2f;
+  margin-bottom: 0;
+}
+
+.attire-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #5c4033;
+  margin-bottom: 30px;
+}
+
+.attire-content {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.attire-gentlemen, .attire-ladies {
+  flex: 1 1 260px;
+  max-width: 320px;
+}
+
+.attire-img {
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.attire-gentlemen h3, .attire-ladies h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #3b2f2f;
+  margin-bottom: 8px;
+  letter-spacing: 0.08em;
+}
+
+.attire-gentlemen p, .attire-ladies p {
+  font-size: 1rem;
+  color: #5c4033;
+  margin-bottom: 18px;
+}
+
+.attire-colors {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.attire-colors span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #e2d6c2;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.07);
+}
